@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<img src="/????/table icon.svg " alt="icon"style="width: 4px; height: 4px"/>
+<title>Das Lernen der Tablle</title>
+ <style>
+      table {
+        font-family: arial, sans-serif;
+        border-radios: collapse;
+        width: 80%;
+      }
+
+      
+    th {
+        border: 1px solid #dddddd;
+        text-align: center;
+        padding: 6px;
+        border-color:#4ea9a9;
+      }
+      td{
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 6px;
+        border-color:#4ea9a9;
+      }
+
+      tr:nth-child(even) {
+        background-color: #dddddd;
+        border-style: solid;
+      }
+    </style>
+</head>
+
+<body>
+ <h1>Diese Tabelle habe ich gemacht.</h1>
+<!--table.............-->
+<table>
+<caption style="text-align:center">Die erste Tabelle</caption>
+ <!--TR1-->
+  <tr>
+   <th>Level 1</th>
+   <th>Level 2</th>
+   <th>Level 3</th>
+   <th>Info</th>
+   <th>Name</th>
+  </tr>
+ <!--TR2-->
+ <tr>
+  <td rowspan="6">System</td>
+  <td rowspan="4">System Apps</td>
+  <td rowspan="3">SystemEnv</td>
+  <td>AppTast</td>
+  <td>foo</td>
+ </tr>
+ <!--TR3-->
+ <tr>
+  <td>App Memory</td>
+  <td>foo</td>
+ </tr>
+ <!--TR4-->
+ <tr>
+  <td>App Test</td>
+  <td>bar</td>
+ </tr>
+ <!--TR5-->
+ <tr>
+  <td>SystemEnv2</td>
+  <td>App Test</td>
+  <td>bar</td>
+ </tr>
+ <!--TR6-->
+ <tr>
+  <td rowspan="2">System Memory</td>
+  <td rowspan="2">Mameory Test</td>
+  <td>Memory Func</td>
+  <td>foo</td>
+ </tr>
+
+ <!--TR7-->
+ <tr>
+  <td>Apes Test</td>
+  <td>foo</td>
+ </tr>
+<!--tfooter-->
+<tfooter>qqqqq</tfooter>
+
+
+
+
+
+
+</table>
+</body>
+</html>
+
+
+
+
+
+
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flaticon.com%2Ffree-icon%2Ftable_1834048&psig=AOvVaw2TB-wlvPyFrJhhP2IX2Zo1&ust=1758149411810000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMi7wI-v3o8DFQAAAAAdAAAAABAE
